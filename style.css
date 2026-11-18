@@ -28,3 +28,21 @@ ol>li{
 ol>li>ol>li{
     background-color: yellow;
 }
+
+table{
+    font-size: 32px;
+    border: solid 5px;
+    border-collapse: collapse;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+caption{
+    text-align: left;
+}
+th,td{
+    width: 100px;
+    height: 50px;
+    border: solid 2px;
+    text-align: center;
+}
