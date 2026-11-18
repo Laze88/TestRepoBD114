@@ -1,0 +1,30 @@
+ul{
+    font-size: 32px;
+    list-style-type: none;
+
+}
+
+/* ul>li::before{
+    content: " - ";
+} */
+
+img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+ol{
+    font-size: 32px;
+    list-style-position: inside;
+    
+}
+li>ol:last-child{
+    padding-bottom: 20px;
+}
+ol>li{
+    background-color: orange;
+}
+
+ol>li>ol>li{
+    background-color: yellow;
+}
